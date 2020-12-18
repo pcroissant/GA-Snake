@@ -115,10 +115,6 @@ class GeneticAlgorithm(object):
                 else:
                     snake_vision[i][j] = -1
 
-        # # Debug
-        # print("Snake vision:")
-        # print(np.array(snake_vision))
-
         # Flatten the matrix into a vector as the neural network takes a vector as an input
         input_vector = list(np.array(snake_vision).flatten()) + [1]
         input_vector = np.array(input_vector)

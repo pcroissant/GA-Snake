@@ -10,6 +10,12 @@ Ainsi, le programme génère des "individus" aléatoires modélisés par de simp
 #### Installation
 
 Toutes les libraires nécéssaires sont dans le fichier `requirements.txt`, une fois installées il suffit d'éxecuter le fichier `main.py`.
+Créer et activer un environnement virtuel afin de séparer les dépendances python du projet de celles de votre machine.
+
+Initialiser ensuite le projet en entrant la commande suivante :
+```bash
+$ make init
+```
 
 #### Exécuter le programme
 Vous pouvez, dans ce fichier `main.py`, modifier les paramètres afin de visualiser leur impact sur les résultats.
